@@ -1,0 +1,40 @@
+
+a:visited{
+    color:green;
+}
+a:hover{
+    color:blue;
+}
+
+h1{
+    text-align: right;
+     color:rebeccapurple;
+}
+
+.container img{
+    max-width: 250px;
+    border-radius: 250px;
+}
+.container {
+    width: 360px;
+    flex-direction: column;
+    display: flex;
+    float: right;
+    margin-top: 30px;
+    align-items: center;
+    padding-right: 50px;
+}
+
+
+.imagem{
+    background-image: url(Imagens/estudante.jpg);
+    height: 1000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    background-attachment: fixed;
+    /* background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 75px; */
+}
