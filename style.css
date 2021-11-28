@@ -1,20 +1,21 @@
-
-a:visited{
-    color:green;
-}
-a:hover{
-    color:blue;
+a:visited {
+    color: rebeccapurple;
 }
 
-h1{
+a:hover {
+    color: blue;
+}
+
+h1 {
     text-align: right;
-     color:rebeccapurple;
+    color: rebeccapurple;
 }
 
-.container img{
+.container img {
     max-width: 250px;
     border-radius: 250px;
 }
+
 .container {
     width: 360px;
     flex-direction: column;
@@ -25,7 +26,7 @@ h1{
     padding-right: 50px;
 }
 
-.imagem{
+.imagem {
     background-image: url(Imagens/estudante.jpg);
     height: 1000px;
     background-size: contain;
@@ -34,14 +35,39 @@ h1{
     background-attachment: fixed;
 }
 
-#curso{
+#curso {
     font-size: 25px;
-    text-align:center;
+    text-align: center;
     font-style: italic;
 }
 
-.frase-topo{
+.frase-topo-img {
+    font-size: 30px;
     position: fixed;
-    text-align:center;
-    font-size:30px;
+    left: 150px;
+    font-style: italic;
+}
+
+.fundo-topo {
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+
+.formação {
+    background-color: #E6E6FA;
+    color: rebeccapurple;
+}
+
+h2 {
+    font-family: cursive;
+    font-style: italic;
+    text-indent: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gainsboro;
+    margin: 0;
 }
