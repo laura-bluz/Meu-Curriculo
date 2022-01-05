@@ -1,3 +1,19 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-color: gainsboro;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+a {
+    font-size: 20px;
+}
+
 a:visited {
     color: rebeccapurple;
 }
@@ -8,32 +24,115 @@ a:hover {
 
 h1 {
     text-align: right;
-    color: rebeccapurple;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-style: italic;  
+}
+
+h3 {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+p{
+    text-align: center;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+li{
+    text-align: left;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+.cabecalho {
+    background-color:rgba(65, 8, 65, 0.835);
+    margin-top: 0px;
+    padding-bottom: 5px;
+    color: wheat;
+    text-shadow: 3px 3px 3px black;
+    text-align:center;
+    font-size: 40px;
+}
+
+.fundo-topo {
+    background-color:#4b044b65;
+    margin: 0px;
+    padding: 0;
+}
+
+.imagem-topo {
+    background-image: url(Imagens/menina-notebook.jpg);
+    height: 750px;
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position-y: 47px;
+}
+
+.frase-topo-img {
+    font-size: 40px;
+    text-align: center;
+    left: 250px;
+    top: 110px;
+    font-style: italic;
+    color:white;
+}
+
+
+.container {
+    width: 360px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+    padding-right: 50px;
 }
 
 .container img {
+    margin-left: 80px;
+    margin-top: 50px;
     max-width: 250px;
     border-radius: 250px;
 }
 
-.container {
-    width: 360px;
-    flex-direction: column;
-    display: flex;
-    float: right;
-    margin-top: 30px;
-    align-items: center;
-    padding-right: 50px;
+.formacao {
+    color: rebeccapurple;
+    margin-top:100px;
+    font-size: 16px;
+    width: 42%;
+    text-align: left;
+    float:left;
 }
 
-.imagem {
-    background-image: url(Imagens/estudante.jpg);
-    height: 1000px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: 50px;
-    background-attachment: fixed;
+.experiencias {
+    color:rebeccapurple;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 42%;
+    text-align: left;
+    float:right;
 }
+
+.conhecimentos {
+    width: 750px;
+    color:rebeccapurple;
+    margin-left: 450px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    clear:both;
+    text-align: left;
+}
+
 
 #curso {
     font-size: 25px;
@@ -41,33 +140,73 @@ h1 {
     font-style: italic;
 }
 
-.frase-topo-img {
-    font-size: 30px;
-    position: fixed;
-    left: 150px;
-    font-style: italic;
+#CC {
+    /* text-indent:220px; */
+    text-align: center;
+    text-decoration:underline;
 }
 
-.fundo-topo {
-    background-color: gainsboro;
-    margin: 0;
-    padding: 0;
+#SA, #SA-EM {
+    /* text-indent:220px;*/
+    text-align: center;
+
 }
 
-.formação {
-    background-color: #E6E6FA;
-    color: rebeccapurple;
+#uri {
+    /* text-indent:125px; */
+    text-align: center;
+
 }
 
-h2 {
-    font-family: cursive;
-    font-style: italic;
-    text-indent: 250px;
-    margin: 0;
-    padding: 0;
+#Onofre {
+    /* text-indent: 232px; */
+    text-align: center;
+}
+#SA-EM {
+    /* text-indent: 260px; */
+    text-align: center;
 }
 
-body {
-    background-color: gainsboro;
-    margin: 0;
+#EM {
+    text-decoration:underline;
+    /* text-indent: 250px; */
+    text-align: center;
+}
+
+#anos-EM {
+    /* text-indent: 275px; */
+    text-align: center;
+}
+
+#PP {
+    text-decoration:underline;
+    /* text-indent: 330px; */
+    text-align: center;
+}
+
+#cargo-PP, #meses-PP {
+    /* text-indent: 355px; */
+    text-align: center;
+}
+
+#meses-PP {
+    /* text-indent: 280px; */
+    text-align: center;
+}
+
+#SA-PP {
+    /* text-indent: 310px; */
+    text-align: center;
+}
+
+
+.rodape {
+    color:white;
+	font-size: 15px;
+	text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background-color:rgba(65, 8, 65, 0.835);
+    line-height: 80px;
+    margin-top: 0px;
+    font-size: 20px;
 }
