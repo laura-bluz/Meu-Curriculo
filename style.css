@@ -4,70 +4,82 @@ html {
 }
 
 body {
-    background-color: gainsboro;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-}
-
-a {
-    font-size: 20px;
+    background-color:rgba(84, 3, 84, 0.212);
+    margin: 0;
 }
 
 a:visited {
-    color: rebeccapurple;
+    color:whitesmoke;
 }
 
 a:hover {
-    color: blue;
+    color: rgba(128, 8, 128, 0.849);
+    text-shadow: 3px 3px 3px black;
 }
 
 h1 {
-    text-align: right;
+    text-align: center;
     color: white;
 }
 
-h2 {
-    text-align: center;
-    font-size: 28px;
-    font-style: italic;  
-}
-
-h3 {
-    text-align: center;
-    font-size: 16px;
-    color: black;
+header{
+    background-color:rgba(65, 8, 65, 0.835);
+    margin: 0;
 }
 
 p{
-    text-align: center;
-    color:black;
-    font-family:'Times New Roman', Times, serif;
     font-size: 20px;
 }
 
-li{
-    text-align: left;
-    color:black;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
+a{
+    color:white;
 }
-
-
+/* -------------------------- Cabeçalho --------------------------  */
 .cabecalho {
-    background-color:rgba(65, 8, 65, 0.835);
+    background-color: rgba(65, 8, 65, 0.835);
     margin-top: 0px;
-    padding-bottom: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
     color: wheat;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 2px 2px 2px black;
     text-align:center;
     font-size: 40px;
 }
 
-.fundo-topo {
-    background-color:#4b044b65;
+/* -------------------------- Topo --------------------------  */
+.topo-nav {
+    text-align:center;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+}
+
+.topo-nav ul {
     margin: 0px;
-    padding: 0;
+    padding: 0px;
+}
+
+.topo-nav li {
+    list-style: none;
+    display:inline-block;
+    margin-right: 0px 15px 0px 0px;
+    padding: 13px;
+}
+
+.topo-nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color 0.3s linear;
+}
+
+.topo-nav a:hover {
+    font-size: 18px;
+    color:black;
+    text-shadow: 2px 2px 2px white;
+    transition: 0.5s;
 }
 
 .imagem-topo {
@@ -75,134 +87,182 @@ li{
     height: 750px;
     background-size: 1300px;
     background-repeat: no-repeat;
-    background-position-y: 47px;
+    border: 1px solid black;
 }
 
 .frase-topo-img {
-    font-size: 40px;
-    text-align: center;
-    left: 250px;
-    top: 110px;
-    font-style: italic;
     color:white;
+    font-size: 40px;
+    margin-left: 20px;
+    font-style: italic;
+    text-align: left;
+    margin-top: 100px;
 }
 
+.fundo-topo {
+    display: flex;
+    float:right;
+    margin: 0;
+}
 
 .container {
-    width: 360px;
-    float: right;
-    margin-top: 30px;
-    margin-right: 100px;
-    padding-right: 50px;
+    width: 600px;
+    height: 0;
+    align-self: center;
+    text-align: center;
 }
-
 .container img {
-    margin-left: 80px;
     margin-top: 50px;
     max-width: 250px;
     border-radius: 250px;
 }
 
-.formacao {
-    color: rebeccapurple;
-    margin-top:100px;
-    font-size: 16px;
-    width: 42%;
-    text-align: left;
-    float:left;
-}
-
-.experiencias {
-    color:rebeccapurple;
-    margin-top: 100px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    width: 42%;
-    text-align: left;
-    float:right;
-}
-
-.conhecimentos {
-    width: 750px;
-    color:rebeccapurple;
-    margin-left: 450px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    margin-bottom: 50px;
-    clear:both;
-    text-align: left;
-}
-
-
 #curso {
     font-size: 25px;
     text-align: center;
     font-style: italic;
+    color:white;
 }
 
-#CC {
-    /* text-indent:220px; */
+/* -------------------------- Sobre --------------------------  */
+
+.sobre{
+    background-color: gainsboro;
     text-align: center;
-    text-decoration:underline;
+    padding: 100px;
+    background-color:hsla(300, 91%, 21%, 0.178);
+    letter-spacing: 1.5px;
 }
 
-#SA, #SA-EM {
-    /* text-indent:220px;*/
-    text-align: center;
-
+.sobre h2{
+    text-align:center;
+    color:rgba(65, 8, 65, 0.835);
+    font-size: 30px;
 }
 
-#uri {
-    /* text-indent:125px; */
-    text-align: center;
-
+.sobre p{
+    line-height: 1.5;
+    width: 40%;
+    display: inline-block;
+    color: black;
+    text-shadow: 1px 1px 1px black;
 }
 
-#Onofre {
-    /* text-indent: 232px; */
-    text-align: center;
-}
-#SA-EM {
-    /* text-indent: 260px; */
-    text-align: center;
+
+/* -------------------------- Cards -------------------------- */
+
+.cards{
+    /* color:blueviolet; */
+    display: flex;
+    margin-left: 25%;
+    padding: 50px;
 }
 
-#EM {
-    text-decoration:underline;
-    /* text-indent: 250px; */
-    text-align: center;
+.cardflex{
+    width: 30%;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
 }
 
-#anos-EM {
-    /* text-indent: 275px; */
-    text-align: center;
+.cardflex h2{
+    font-size:42px;
+    color:rgba(65, 8, 65, 0.835);
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.cardflex h3{
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+#uri, #SA, #Onofre, #anos-EM, #SA-EM{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 
 #PP {
-    text-decoration:underline;
-    /* text-indent: 330px; */
-    text-align: center;
+    margin-top: 0px;
 }
 
-#cargo-PP, #meses-PP {
-    /* text-indent: 355px; */
-    text-align: center;
-}
-
-#meses-PP {
-    /* text-indent: 280px; */
-    text-align: center;
-}
-
-#SA-PP {
-    /* text-indent: 310px; */
-    text-align: center;
+#cargo-PP, #meses-PP, #SA-PP{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 
 
-.rodape {
-    color:white;
-	font-size: 15px;
+.conhecimentos{
+    display: flex;
+    /* padding: 50px; */
+    font-size: 20px;
+    margin-left: 30%;
+    flex-direction: column;
+    width: 50%;
+}
+
+.progress{
+    height: 4px;
+    background-color: white;
+}
+
+ .progress:nth-child(2) .progress-bar{
+    height: 100%;
+    border-radius: 200px;
+    width: 50%;
+    background-color: purple;
+ }
+ .progress:nth-child(5) .progress-bar{
+   height: 100%;
+   border-radius: 200px;
+   width: 90%;
+   background-color: purple; 
+}
+.progress:nth-child(8) .progress-bar{
+    height: 100%;
+    border-radius: 200px;
+    width: 70%;
+    background-color: purple;
+ }
+ .progress:nth-child(11) .progress-bar{
+    height: 100%;
+    border-radius: 200px;
+    width: 50%;
+    background-color: purple;
+ }
+ .progress:nth-child(14) .progress-bar{
+    height: 100%;
+    border-radius: 200px;
+    width: 15%;
+    background-color: purple;
+ }
+ .progress:nth-child(17) .progress-bar{
+    height: 100%;
+    border-radius: 200px;
+    width: 10%;
+    background-color: purple;
+ }
+
+ .progress:nth-child(20) .progress-bar{
+    height: 100%;
+    border-radius: 200px;
+    width: 50%; 
+    background-color: purple;
+ }
+
+ .progress:nth-child(23) .progress-bar{
+    height: 100%;
+    border-radius: 200px;
+    width: 20%; 
+    background-color: purple;
+ }
+/* -------------------------- Rodapé -------------------------- */
+.rodape{
+    height: 80px;
+	color: wheat;
+	font-size: 14px;
 	text-align: center;
     text-shadow: 2px 2px 2px black;
     background-color:rgba(65, 8, 65, 0.835);
