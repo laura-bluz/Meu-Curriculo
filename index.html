@@ -17,7 +17,7 @@
             <ul>
                 <li> <a href="#">Home</a></li>
                 <li> <a href="#">Sobre</a></li>
-                <li> <a href="#">Formação e Experiências</a></li>
+                <li> <a href="#">Formação e Experiência</a></li>
                 <li> <a href="#">Conhecimentos Técnicos</a></li>
             </ul>
         </nav>
@@ -26,11 +26,15 @@
                 <img src="Imagens/perfil.jpg" alt="Foto do Perfil">
                 <h1>Laura Bamberg da Luz</h1><br>
                 <p id='curso'>Bacharela em Ciência da Computação</p>
+                <p id='curso'>Santo Ângelo, RS</p>
                 <br><br>
-                <p>
-                    <a><b>Contato:</b> <a href="https://www.linkedin.com/in/laurabluz/" target="_blank">Linkedin</a>
-                        <p><a><b>Meus projetos:</b> <a href="https://github.com/laura-bluz" target="_blank">GitHub</a>
-                        </p>
+                <p> 
+                    <a href="https://www.linkedin.com/in/laurabluz/" target="_blank">
+                        <img class="img-linkedin" src="Imagens/icons8-linkedin-24.png" alt="Ícone Linkedin">
+                    </a>
+                    <a href="https://github.com/laura-bluz" target="_blank">
+                        <img src="Imagens/icons8-github-30.png" alt="Ícone GitHub">
+                    </a>
                 </p>
             </div>
         </div>
@@ -83,52 +87,92 @@
         </article>
     </section>
 
-    <article class="conhecimentos">
-        <h2>Conhecimentos Técnicos</h2>
+    <div class="container-conhecimentos-tecnicos">
+        <article class="conhecimentos">
+            <h2>Conhecimentos Técnicos</h2>
 
-        <ul>
-            <li>Microsoft Word, Excel e PowerPoint</li>
+            <ul>
+                <li>Microsoft Word, Excel e PowerPoint</li>
+                <!-- <div class="progress">
+                <div class="progress-bar"></div>
+            </div><br> -->
+                <li>Formatação de computadores e notebooks</li>
+                <!-- <div class="progress">
+                <div class="progress-bar"></div>
+            </div><br> -->
+                <li>Sistema Operacional Windows 7, 10 e 11</li>
+                <!-- <div class="progress">
+                <div class="progress-bar"></div>
+            </div><br> -->
+                <li>Linguagens de Programação: C++ e
+                    JavaScript
+                </li>
+                <!-- <div class="progress">
+                <div class="progress-bar"></div>
+            </div><br> -->
+                <li>Linguagem de Programação Java</li>
+                <!-- <div class="progress">
+                <div class="progress-bar"></div>
+            </div><br> -->
+                <li>Banco de Dados MySQL</li>
+                <!-- <div class="progress">
+                <div class="progress-bar"></div>
+            </div><br> -->
+                <li>CSS e HTML</li>
+                <!-- <div class="progress">
+                <div class="progress-bar"></div>
+            </div><br> -->
+                <li>Git</li>
+                <!-- <div class="progress">
+                <div class="progress-bar"></div>
+            </div> -->
+            </ul>
+        </article>
+
+        <div class="container-skills">
             <div class="progress">
                 <div class="progress-bar"></div>
             </div><br>
-            <li>Formatação de computadores e notebooks</li>
             <div class="progress">
                 <div class="progress-bar"></div>
             </div><br>
-            <li>Sistema Operacional Windows 7, 10 e 11</li>
             <div class="progress">
                 <div class="progress-bar"></div>
             </div><br>
-            <li>Linguagens de Programação: C++  e
-                JavaScript
-            </li>
             <div class="progress">
                 <div class="progress-bar"></div>
             </div><br>
-            <li>Linguagem de Programação Java</li>
             <div class="progress">
                 <div class="progress-bar"></div>
             </div><br>
-            <li>Banco de Dados MySQL</li>
             <div class="progress">
                 <div class="progress-bar"></div>
             </div><br>
-            <li>CSS e HTML</li>
             <div class="progress">
                 <div class="progress-bar"></div>
             </div><br>
-            <li>Git</li>
             <div class="progress">
                 <div class="progress-bar"></div>
-            </div>
-        </ul>
-        <br>
-    </article>
+            </div><br>
+        </div>
+    </div>
+
 
     <footer class="rodape">
         <p class="rodape">&copy; 2022 <i>por Laura Bamberg da Luz</i></p>
     </footer>
 
+    <button id="back-to-top">
+        <img src="Imagens/icons8-para-cima-com-quadrado-48.png" alt="Flecha apontando para o topo da página">; 
+    </button>
+
+    <script>
+        var btn = document.querySelector("#back-to-top");
+        btn.addEventListener("click", function () {
+            window.scrollTo(0, 0);
+        });
+    </script>
+    
 </body>
 
 </html>
