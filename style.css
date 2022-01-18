@@ -122,7 +122,6 @@ a {
 .container {
     width: 600px;
     height: 0;
-    align-self: center;
     text-align: center;
 }
 .container img {
@@ -131,6 +130,7 @@ a {
     border-radius: 250px;
 }
 
+
 #curso {
     font-size: 25px;
     text-align: center;
@@ -138,13 +138,6 @@ a {
     color:white;
 }
 
-.cv {
-    background-color:black;
-    font-size: 30px;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 5px;
-}
 
 
 /* -------------------------- Sobre --------------------------  */
@@ -223,6 +216,7 @@ a {
     margin-left: 27%;
     flex-direction: row;    
     font-size: 20px;
+    margin-top: 100px;
 }
 
 .conhecimentos{
@@ -234,11 +228,15 @@ a {
     color:rgba(65, 8, 65, 0.835);
     font-style: italic;
     margin-top: 50px;
-    text-align: left;
 }
 
-.conhecimentos ul li{
+.conhecimentos ul {
+    padding: 0px;
+}
+
+.conhecimentos ul li {
     padding: 5%;
+    list-style: none;
 }
 
 .container-skills{
@@ -260,7 +258,7 @@ a {
 
  .progress:nth-child(1) .progress-bar{
     height: 100%;
-    width: 50%;
+    width: 60%;
     background-color: purple;
  }
 
@@ -280,7 +278,7 @@ a {
  .progress:nth-child(7) .progress-bar{
     margin-top: 10%;
     height: 100%;
-    width: 50%;
+    width: 60%;
     background-color: purple;
  }
  .progress:nth-child(9) .progress-bar{
@@ -300,14 +298,14 @@ a {
  .progress:nth-child(13) .progress-bar{
     margin-top: 9%;
     height: 100%;
-    width: 50%; 
+    width: 60%; 
     background-color: purple;
 }
 
  .progress:nth-child(15) .progress-bar{
     margin-top: 9%;
     height: 100%;
-    width: 20%; 
+    width: 25%; 
     background-color: purple;
 }
 
@@ -320,11 +318,9 @@ a {
     height: 0px;
     border: 0px;
     background-color:transparent;
-
 }
 
 .ouvir{
-    text-align: left;
     padding: 50px;
     background-color:hsla(300, 91%, 21%, 0.178);
     letter-spacing: 1.5px;
@@ -332,28 +328,42 @@ a {
     font-size: 40px;
     font-style: italic;
     margin-top: 100px;
-    display:block;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
 }
 
 .ouvir h2 {
-    margin-left: 500px;
-    font-size: 30px;
+    font-size: 27px;
+}
+
+.container-fim {
+    width: 13%;
+    align-self: center;
+    /* border: 2px solid black; */
+}
+.container-1 {
+    /* border: 2px solid black; */
+    margin: 20px;
+}
+
+.container-2 {
+    /* border: 2px solid black; */
+    margin: 20px;
+    margin-top: 50px;
+    padding-left: 10px;
 }
 
 .ouvir p {
-    font-size: 30px;
     color:transparent;
-    margin-left: 480px;
-    width: 0px;
     display: flex;
-    padding-top: 50px;
 }
 
 .ouvir p a {
     font-size: 40px;
     color:transparent;
-    margin-right: 0px;
-    margin-left: 100px;
+    margin-right: 50px;
+    width: 0px;
 }
 
 .ouvir p a img {
@@ -362,16 +372,29 @@ a {
     width: 25px;
 }
 
-#cv-fim {
-    background-color:black;
-    font-size: 30px;
-    border-radius: 5px;
+
+/* -------------------------- Download Curriculum Vitae -------------------------- */
+.cv-inicio{
+    width: 120px;
+    background-color: white;
+    border-radius: 15px;
     text-decoration: none;
-    padding: 5px; 
-    color:white;
-    text-align: center;
-    margin-left: 500px;    
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 220px;
 }
+
+.cv {
+    color: black; 
+    text-decoration: none;
+}
+
+.cv:hover{
+    color:rgba(65, 8, 65, 0.835);
+    text-shadow: none;
+    font-style:italic;
+}
+
 /* -------------------------- Rodapé -------------------------- */
 .rodape{
     height: 80px;
@@ -382,5 +405,5 @@ a {
     background-color:rgba(65, 8, 65, 0.835);
     line-height: 80px;
     margin-top: 0px;
-    font-size: 20px;
+   font-size: 20px;
 }
