@@ -340,25 +340,27 @@ a {
 .container-fim {
     width: 13%;
     align-self: center;
-    /* border: 2px solid black; */
 }
 .container-1 {
-    /* border: 2px solid black; */
     margin: 20px;
 }
 
 .container-2 {
-    /* border: 2px solid black; */
     margin: 20px;
-    margin-top: 50px;
-    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .ouvir p {
     color:transparent;
-    display: flex;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
+.ouvir p a:nth-child(2){
+    margin-right: 0px;
+}
 .ouvir p a {
     font-size: 40px;
     color:transparent;
