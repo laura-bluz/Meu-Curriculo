@@ -32,6 +32,17 @@ header {
     padding: 0%;
 }
 
+
+/* #header { 
+    background-color:rgba(65, 8, 65, 0.835);
+    box-sizing: border-box;
+    height: 150px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+} */
+
 p {
     font-size: 20px;
 }
@@ -52,7 +63,11 @@ a {
 }
 
 /* -------------------------- Topo --------------------------  */
-.topo-nav {
+#btn-mobile { 
+    display: none;
+}
+
+#topo-nav {
     text-align:center;
     height: 100%;
     margin-left: 5%;
@@ -60,25 +75,25 @@ a {
     margin-top: 1%;
 }
 
-.topo-nav ul {
+#topo-nav ul {
     margin: 0%;
     padding: 0%;
     display: flex;
     justify-content:center;
 }
 
-.topo-nav li {
+#topo-nav li {
     list-style: none;
     display: inline-block;
     padding-bottom: 1.5%;
     margin-right: 10%;
 }
 
-.topo-nav li:last-child {
+#topo-nav li:last-child {
     margin-right: unset;
 }
 
-.topo-nav a {
+#topo-nav a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -87,7 +102,7 @@ a {
     transition: color 0.3s linear;
 }
 
-.topo-nav a:hover {
+#topo-nav a:hover {
     font-size: 20px;
     color:black;
     text-shadow: 2px 2px 2px white;
@@ -410,16 +425,15 @@ a {
    font-size: 20px;
 }
 
+/* -------------------------- Media Query -------------------------- */
 @media screen and (max-width: 1600px){
-    .topo-nav a {
+    #topo-nav a {
         font-size: 14px;
     }
     
-    .topo-nav a:hover {
-        font-size: 20px;
+    #topo-nav a:hover {
+        font-size: 16px;
     }
-
-
 
     .imagem-topo { 
         background-size: 70%;
@@ -435,9 +449,7 @@ a {
 
 
     .container {
-        margin-top: 12%;
-        /* width: 90%; */
-        height: 50%;
+        margin-top: 0%;
     }
 
     .container h1 {
@@ -445,7 +457,7 @@ a {
     }
 
     .container img {
-        max-width: 200px;
+        max-width: 150px;
     }
 
     .cv-inicio {
@@ -490,11 +502,6 @@ a {
         font-size: 28px;
     }
 
-
-
-    .container {
-        margin-top: 5%;
-    }
  
     .container h1 {
         font-size: 25px;
@@ -530,7 +537,7 @@ a {
     }
 }
 
-@media screen and (max-width: 420px){    
+@media screen and (max-width: 600px){    
     
     html {
         height: 100%;
@@ -544,6 +551,119 @@ a {
         width: 100%;
     }
 
+    .cabecalho {
+        font-size: 0px;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    #header { 
+        box-sizing: border-box;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+    #btn-mobile {
+        display: flex;
+        background: none;
+        border: none;
+        border-radius: 15px;
+        padding: .5rem 1rem;
+        text-decoration: none;
+        float: right;
+    }
+
+
+    #hamburger {
+        width: 50px;
+        border-top: 5px solid;
+        display: block;
+        color:wheat;
+    }
+
+    #hamburger::after, #hamburger::before {
+        content: '';
+        display: block;
+        width: 50px;
+        height: 5px;
+        margin-top: 5px;
+        background-color: currentColor;
+        transition: .3s;
+        position: relative;
+    }
+
+    #topo-nav.active #hamburger {
+        border-top-color: transparent;
+    }
+
+    #topo-nav.active #hamburger::before {
+        transform: rotate(135deg);    
+    }
+
+    #topo-nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    #topo-nav {
+        width: 50%;
+        height: 50%;
+        margin: 0%;
+    }
+
+    #menu {
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        right: 0px;
+        transition:  .0s ease-out;
+        z-index: 1000;  
+        visibility: hidden;
+        overflow: hidden;
+        background-color: purple;
+    }
+
+    #menu li {
+        background-color: purple;
+        text-align: center;
+        border-bottom: 2px solid black;
+    }
+    
+    #menu li:nth-last-child(1) {
+        border:none;
+    }
+
+    #menu li:nth-child(1) {
+        border:none;
+    }
+
+    #menu li:nth-child(2) {
+        border-top: 2px solid black;
+        margin-left: 3%;
+    }
+
+    #menu li:nth-child(3) {
+        margin-left: 3%;
+    }
+
+    #menu a {
+        padding: 50px;
+        margin: 0 1rem;
+        display: block;
+    }
+
+    #topo-nav.active #menu {
+        height: calc(100vh - 100px);
+        display: block;
+        visibility: visible;
+        overflow: auto;
+    }
+
+
+    
     .topo {
         display: flex;
         flex-direction: column-reverse;
@@ -557,56 +677,6 @@ a {
         background-size: 100%;
         height: 37vh;
     }
-
-    .topo-nav {
-        clear:left;
-        margin:0%;
-    }
-
-    .topo-nav ul {
-        margin: 0%;
-        padding: 0%;
-        display: block;
-    }
-
-    .topo-nav li {
-        list-style-type: none;
-        padding:0%;
-        border-bottom: 1px dotted rgba(255,255,255, 0.2);
-    }
-
-    .topo-nav li:nth-last-child(1) {
-        border-bottom: 0;
-    }
-
-    .topo-nav a {
-        text-decoration: none;
-        text-transform: uppercase;
-        color:white;
-        font-size: 14px;
-        font-weight: 600;
-        display: block;
-        padding: 25px 0;
-        transition: .8s ease;
-    }
-
-    .topo-nav a:hover {
-        font-size: 16px;
-    }
-
-
-    /* .header__btnMenu {
-        float: right;
-        margin: 1.5em;
-        background: transparent;
-        border: none;
-        font-size: 14px;
-    }
-    
-    .js .topo-nav {
-        transition: max-height 1s;
-    } */
-
 
     .container { 
         flex-direction: column;
@@ -671,6 +741,7 @@ a {
         font-size: 15px;
     }
 
+    
 
     .container-conhecimentos-tecnicos {
         margin-left: 10%;
@@ -692,22 +763,13 @@ a {
 
     .container-skills {
         margin-left: 10%;
-        margin-top: 41%;
+        margin-top: 29%;
     }
 
     .progress {
-        margin-top: 24%;
+        margin-top: 15%;
         width: 100%;
     }
-
-    .progress:nth-child(3) .progress-bar{
-        margin-top: 35%;
-     }
-     
-    .progress:nth-child(5) .progress-bar{
-        margin-top: 35%;
-    }
-
 
 
     .container-fim {
@@ -715,9 +777,45 @@ a {
     }
 }
 
+@media screen and (max-width: 420px){ 
+
+    .container-skills {
+        margin-top: 41%;
+    }
+
+    .progress {
+        margin-top: 28%;
+    }
+
+}
+
+
 @media screen and (max-width: 360px){ 
+    .sobre h2 {
+        font-size: 22px;
+    }
+
+    .sobre p {
+        font-size: 12px;
+        width: 40vh;
+    }
+
     
     .conhecimentos h2 {
         font-size: 20px;
+    }
+
+    .container-skills {
+        margin-top: 40%;
+    }
+
+    .progress {
+        margin-top: 28%;
+        width: 100%;
+    }
+
+
+    .container-fim {
+        width: 60%;
     }
 }

@@ -3,17 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./menu.js">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <script src="./menu.js"></script> -->
     <title>Currículo de Laura</title>
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <p class="cabecalho">Seja bem-vindo(a)!</p>
-        <nav class="topo-nav">
-            <ul>
+         <nav id="topo-nav"><br> 
+             <button id="btn-mobile"> 
+                 <span id="hamburger"></span>
+             </button>
+            <ul id="menu">
                 <li> <a href="#sobre-mim">Sobre</a></li>
                 <li> <a href="#card">Formação e Experiência</a></li>
                 <li> <a href="#conhec-tec">Conhecimentos Técnicos</a></li>
@@ -202,6 +207,8 @@
             window.scrollTo(0, 0);
         });
     </script>
+
+    <script src="./menu.js"></script>
 
 </body>
 
