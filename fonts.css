@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "RobotoBold";
+    src: local(Roboto), url(./Fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "RobotoBlack";
+    src: local(Roboto), url(./Fonts/Roboto-Black.ttf);
+}

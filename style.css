@@ -1,3 +1,5 @@
+@import "./fonts.css";
+
 html {
     height: 100%;
     min-height: 100%;
@@ -641,20 +643,15 @@ a {
         z-index: 1000;  
         visibility: hidden;
         overflow: hidden;
-        /* background-color:slateblue; */
-        
-        background-color: gainsboro;
-        /* background-color:hsla(300, 91%, 21%, 0.178); */
-        border-radius:15px; 
+        background-color: #e4d3e4;
     }
-
 
     #menu a {
         display: block;
         /* color: black; */
         color:steelblue;
-        font-size: 25px;
-        /* font-family:fantasy; */
+        font-size: 30px;
+        font-family: "RobotoBlack";
         text-transform:capitalize;
     }
 
@@ -668,14 +665,15 @@ a {
         height: 100vh;
         display: block;
         visibility: visible;
-    }
-    
-    #topo-nav.no-active #menu {
-        visibility: disabled;
+        transition-delay: .4s;
     }
 
+    
+    #body {
+        overflow: hidden;
+    }
     #menu li {
-        margin-top: 20%;
+        margin-top: 12%;
         width: 100%;
     }
 
@@ -683,26 +681,31 @@ a {
         background-image: url(./Imagens/usuario-mulher-com-circulo.png);
         background-repeat: no-repeat;
         background-position:left;
+        margin-left: 3%;
     }
 
     #menu li:nth-child(3) {
         background-image: url(./Imagens/chapéu-de-formatura.png);
         background-repeat: no-repeat;
         background-position:left;
-        padding: 25px;
+        padding: 25px; 
+        margin-left: 3%;
     }
+    
 
     #menu li:nth-child(4) {
         background-image: url(./Imagens/meu-computador.png);
         background-repeat: no-repeat;
         background-position:left;
         padding: 25px;
+        margin-left: 3%;
     }
 
     #menu li:nth-child(5) {
         background-image: url(./Imagens/contato-de-email.png);
         background-repeat: no-repeat;
         background-position:left;
+        margin-left: 3%;
     }
     
 
