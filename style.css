@@ -668,10 +668,6 @@ a {
         transition-delay: .4s;
     }
 
-    
-    #body {
-        overflow: hidden;
-    }
     #menu li {
         margin-top: 12%;
         width: 100%;
