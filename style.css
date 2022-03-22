@@ -435,6 +435,29 @@ a {
    font-size: 20px;
 }
 
+
+/* ---------------------------- Responsividade ---------------------------- */
+/* @media (max-width: 1900px){
+}
+@media (max-width: 1600px){
+}
+@media (max-width: 1440px) {
+}
+@media (max-width: 1200px){
+}
+@media (max-width: 1024px){
+}
+@media (max-width: 992px){
+}
+@media (max-width: 768px){
+}
+@media (max-width: 600px){
+}
+@media (max-width: 480px){
+}
+@media (max-width: 360px){
+} */
+
 /* -------------------------- Media Query -------------------------- */
 @media screen and (max-width: 1600px){
     #topo-nav a {
@@ -561,6 +584,15 @@ a {
         width: 100%;
     }
 
+    #header { 
+        box-sizing: border-box;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100% !important;
+    }
+    
     .cabecalho {
         font-size: 0px;
         padding: 0%;
@@ -585,15 +617,16 @@ a {
         text-decoration: none;
         float: right;
     }
-
+   
     #btn-mobile-close {
-        display: flex;
+        display: block;
         background: none;
         border: none;
         border-radius: 15px;
         padding: .5rem 1rem;
         text-decoration: none;
         float: right;
+        align-self:flex-end;
     }
 
 
@@ -635,24 +668,36 @@ a {
         margin: 0%;
     }
 
+
     #menu {
-        position: absolute;
-        width: 100%;
-        right: 0px;
-        transition: .0s ease-out;
-        z-index: 1000;  
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        z-index: 2;  
         visibility: hidden;
         overflow: hidden;
         background-color: #e4d3e4;
+        transition:  0.45s ease;
     }
 
     #menu a {
-        display: block;
-        /* color: black; */
+        /* display: block; */
         color:steelblue;
         font-size: 30px;
         font-family: "RobotoBlack";
         text-transform:capitalize;
+        background-color: transparent;
+        margin-left: 0%;
+        padding-left: 0%;
+        visibility: hidden;
+    }
+
+    #topo-nav #menu a {
+        visibility: hidden !important;
+    }
+    
+    #topo-nav.active #menu a {
+        visibility: visible !important;
     }
 
     #menu a:hover {
@@ -660,17 +705,21 @@ a {
         color:steelblue;
         font-style:italic;
     }
-
+    
     #topo-nav.active #menu {
+        width: 100vw !important;
         height: 100vh;
         display: block;
         visibility: visible;
-        transition-delay: .4s;
+        transition-delay: .5s ease;
     }
+
 
     #menu li {
         margin-top: 12%;
         width: 100%;
+        margin-left: 0%;
+        width: 100vw !important;
     }
 
     #menu li:nth-child(2) {
