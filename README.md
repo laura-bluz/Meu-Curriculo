@@ -1,2 +1,2 @@
 # Meu-Curriculo
-Landing Page sobre meu curriculum vitae
+Landing Page sobre meu Curriculum Vitae.
