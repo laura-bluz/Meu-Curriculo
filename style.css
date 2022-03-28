@@ -939,13 +939,29 @@ a {
 @media screen and (max-width: 530px){
     .imagem-topo {
         height: 40vh !important;
-    }    
+    }
+    
+    .container-skills {
+        margin-top: 30%;
+    }
+
+    .progress {
+        margin-top: 18%;
+    }
 }
 
 @media screen and (max-width: 500px){
     .imagem-topo {
         height: 39vh !important;
     }    
+
+    .container-skills {
+        margin-top: 34%;
+    }
+
+    .progress {
+        margin-top: 20%;
+    }
 
 }
 @media screen and (max-width: 480px){
@@ -990,16 +1006,24 @@ a {
     .imagem-topo {
         height: 33vh !important;
     }    
+
+    .container-skills {
+        margin-top: 37%;
+    }
+
+    .progress {
+        margin-top: 28%;
+    }
 }
 
 @media screen and (max-width: 420px){ 
 
     .container-skills {
-        margin-top: 41%;
+        margin-top: 39%;
     }
 
     .progress {
-        margin-top: 28%;
+        margin-top: 29%;
     }
 
 }
@@ -1010,11 +1034,11 @@ a {
     }  
     
     .container-skills {
-        margin-top: 45%;
+        margin-top: 41%;
     }
 
     .progress {
-        margin-top: 38%;
+        margin-top: 33%;
     }
 }
 
