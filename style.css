@@ -1007,7 +1007,15 @@ a {
 @media screen and (max-width: 400px){ 
     .imagem-topo {
         height: 30vh !important;
-    }    
+    }  
+    
+    .container-skills {
+        margin-top: 45%;
+    }
+
+    .progress {
+        margin-top: 38%;
+    }
 }
 
 @media screen and (max-width: 380px){ 
