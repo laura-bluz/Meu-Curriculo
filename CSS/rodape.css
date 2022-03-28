@@ -1,0 +1,13 @@
+/* -------------------------- Rodapé -------------------------- */
+.rodape{
+    height: 80px;
+	color: wheat;
+	font-size: 14px;
+	text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background-color:rgba(65, 8, 65, 0.835);
+    line-height: 80px;
+    margin-top: 0%;
+   font-size: 20px;
+}
+

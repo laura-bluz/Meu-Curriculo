@@ -1,0 +1,501 @@
+@import "./fonts.css";
+
+/* -------------------------- Cabeçalho --------------------------  */
+.cabecalho {
+    background-color: rgba(65, 8, 65, 0.835);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    color: wheat;
+    text-shadow: 2px 2px 2px black;
+    text-align:center;
+    font-size: 40px;
+}
+
+/* -------------------------- Topo --------------------------  */
+#btn-mobile { 
+    display: none;
+}
+#btn-mobile-close { 
+    display: none;
+}
+
+#topo-nav {
+    text-align:center;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+#topo-nav ul {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content:center;
+}
+
+#topo-nav li {
+    list-style: none;
+    display: inline-block;
+    padding-bottom: 1.5%;
+    margin-right: 10%;
+}
+
+#topo-nav li:last-child {
+    margin-right: unset;
+}
+
+#topo-nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 5px;
+    transition: color 0.3s linear;
+}
+
+#topo-nav a:hover {
+    font-size: 20px;
+    color:black;
+    text-shadow: 2px 2px 2px white;
+    transition: 0.5s;
+}
+
+.imagem-topo {
+    background-image: url(/Imagens/menina-notebook.jpg);
+    height: 78vh;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    background-color:rgba(65, 8, 65, 0.835);
+}
+
+.frase-topo-img {
+    color:white;
+    font-size: 40px;
+    font-style: italic;
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 1%;
+}
+
+
+
+.fundo-topo {
+    float:right;
+    width: 30%; 
+}
+
+.fundo-topo p a {
+    color:transparent;
+    width: 0%;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.fundo-topo p a img {
+    background-color:white;
+    border-radius: 5px;
+    width: 18%;
+}
+
+.container-links {
+    margin-left: 8%;
+}
+
+.container {
+    width: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.container img {
+    margin-top: 1%;
+    max-width: 250px;
+    border-radius: 250px;
+}
+
+
+#curso {
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    color:white;
+}
+
+/* -------------------------- Download Curriculum Vitae -------------------------- */
+.cv-inicio {
+    width: 26%;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 1.2%;
+}
+
+.cv-inicio a {
+    color: black;
+    text-decoration: none;
+}
+
+.cv:hover {
+    color:rgba(65, 8, 65, 0.835);
+    text-shadow: none;
+    font-style:italic;
+}
+
+
+/* ---------------------------- Responsividade ---------------------------- */
+@media (max-width: 1600px){
+    #topo-nav a {
+        font-size: 14px;
+    }
+    
+    #topo-nav a:hover {
+        font-size: 16px;
+    }
+
+    .imagem-topo { 
+        background-size: 70%;
+        
+   }
+  
+    .frase-topo-img {
+        font-size: 32px;
+        margin-top: 5%;
+        margin-left: 2%;
+        padding: 0%;
+    }
+
+
+    .container {
+        margin-top: 0%;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .container img {
+        max-width: 150px;
+    }
+
+    .cv-inicio {
+        width: 30%;
+    }
+}
+
+@media (max-width: 1442px){
+    .imagem-topo {
+      height: 70vh;
+    }
+
+    .frase-topo-img {
+        font-size: 28px;
+    }
+
+ 
+    .container h1 {
+        font-size: 25px;
+    }
+
+
+    #curso {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1200px){
+    .imagem-topo {
+        height: 65vh !important;
+    }
+}
+
+@media (max-width: 1024px){
+    .container img {
+        width: 35%;
+    }
+
+    .imagem-topo {
+        height: 55vh !important;
+    }
+}
+
+@media (max-width: 768px){
+    .imagem-topo {
+        height: 42vh !important;
+    }
+
+    .container img {
+        width: 20%;
+    }
+
+    h1 {
+        font-size: 20px !important;
+    }
+
+    .container-links {
+        height: 6vh !important;
+    }
+
+    .cv-inicio {
+        width: 40%;
+        margin-top: 0%;
+    }
+}
+
+@media screen and (max-width: 600px){    
+
+    .cabecalho {
+        font-size: 0px;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    #btn-mobile {
+        display: flex;
+        background: none;
+        border: none;
+        border-radius: 15px;
+        padding: .5rem 1rem;
+        text-decoration: none;
+        float: right;
+    }
+   
+    #btn-mobile-close {
+        display: block;
+        background: none;
+        border: none;
+        border-radius: 15px;
+        padding: .5rem 1rem;
+        text-decoration: none;
+        float: right;
+        align-self:flex-end;
+    }
+
+
+    #hamburger {
+        width: 50px;
+        border-top: 5px solid;
+        display: block;
+        color:wheat;
+        float:right;
+    }
+
+    #hamburger::after, #hamburger::before {
+        content: '';
+        display: block;
+        width: 50px;
+        height: 5px;
+        margin-top: 5px;
+        background-color: currentColor;
+        transition: .3s;
+        position: relative;
+    }
+
+    #topo-nav.active #hamburger {
+        border-top-color: transparent;
+        color:aqua;
+    }
+
+    #topo-nav.active #hamburger::before {
+        transform: rotate(135deg);    
+    }
+
+    #topo-nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    #topo-nav {
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+    }
+
+
+    #menu {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        z-index: 2 !important;  
+        visibility: hidden;
+        overflow: hidden;
+        background-color: #e4d3e4;
+        transition-delay: .4s ease;
+        /* transition:  0.45s ease; */
+    }
+
+    #menu a {
+        color:steelblue;
+        font-size: 30px;
+        font-family: "RobotoBlack";
+        text-transform:capitalize;
+        background-color: transparent;
+        margin-left: 0%;
+        padding-left: 0%;
+        visibility: hidden;
+    }
+
+    #topo-nav #menu a {
+        visibility: hidden !important;
+    }
+    
+    #topo-nav.active #menu a {
+        visibility: visible !important;
+    }
+
+    #menu a:hover {
+        font-size: 35px;
+        color:steelblue;
+        font-style:italic;
+    }
+    
+    #topo-nav.active #menu {
+        width: 100vw !important;
+        height: 100vh;
+        display: block;
+        visibility: visible;
+        transition-delay: .5s ease;
+    }
+
+
+    #menu li {
+        margin-top: 12%;
+        width: 100%;
+        margin-left: 0%;
+        width: 100vw !important;
+    }
+
+    #menu li:nth-child(2) {
+        background-image: url(/Imagens/usuario-mulher-com-circulo.png);
+        background-repeat: no-repeat;
+        background-position:left;
+        margin-left: 3%;
+    }
+
+    #menu li:nth-child(3) {
+        background-image: url(/Imagens/chapéu-de-formatura.png);
+        background-repeat: no-repeat;
+        background-position:left;
+        padding: 25px; 
+        margin-left: 3%;
+    }
+    
+
+    #menu li:nth-child(4) {
+        background-image: url(/Imagens/meu-computador.png);
+        background-repeat: no-repeat;
+        background-position:left;
+        padding: 25px;
+        margin-left: 3%;
+    }
+
+    #menu li:nth-child(5) {
+        background-image: url(/Imagens/contato-de-email.png);
+        background-repeat: no-repeat;
+        background-position:left;
+        margin-left: 3%;
+    }
+    
+
+
+    
+    .topo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .fundo-topo {
+        background-color:rgba(65, 8, 65, 0.835);
+        width: 100%;
+    }
+    .imagem-topo {
+        background-size: 100%;
+        height: 37vh;
+    }
+
+    .container { 
+        flex-direction: column;
+        width: 100%;
+        height: 70vh;
+        margin-top: 10%;
+    }
+
+    .container img {
+        width: 40%;
+    }
+
+    .container h1 { 
+        font-size: 30px !important;
+    }
+
+    .container p {
+        font-size: 25px !important;
+    }
+
+    .container-links {
+        padding: 0%;
+    }
+
+    .frase-topo-img {
+        font-size: 25px !important;
+        margin-top: 2%;
+        padding: 0%;
+        margin-left: 0%;
+        text-align: center;
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 530px) {
+    .imagem-topo {
+        height: 40vh !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .imagem-topo {
+        height: 39vh !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .imagem-topo {
+        height: 38vh !important;
+    }
+}
+
+@media (max-width: 450px){
+    .imagem-topo {
+        height: 35vh !important;
+    }    
+}
+
+
+@media (max-width: 430px) {
+    .imagem-topo {
+        height: 33vh !important;
+    }  
+}
+
+
+@media (max-width: 400px) { 
+    .imagem-topo {
+        height: 30vh !important;
+    }  
+}
+
+@media (max-width: 360px){ 
+    .imagem-topo {
+        height: 28vh !important;
+    }
+    
+    .frase-topo-img {
+        font-size: 20px !important;
+    }
+}

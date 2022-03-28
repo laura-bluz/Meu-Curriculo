@@ -1,0 +1,292 @@
+/* -------------------------- Conhecimentos técnicos -------------------------- */
+.container-conhecimentos-tecnicos{
+    width: 70%;
+    display: flex;
+    margin-left: 27%;
+    flex-direction: row;    
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.conhecimentos{
+    width: 70%;
+}
+
+.conhecimentos h2{
+    font-size:35px;
+    color:rgba(65, 8, 65, 0.835);
+    font-style: italic;
+    margin-top: 10%;
+}
+
+.conhecimentos ul {
+    padding: 0%;
+}
+
+.conhecimentos ul li {
+    padding: 4.1%;
+    list-style: none;
+}
+
+
+
+.container-skills{
+    width: 100%;
+    padding: 4.2%;
+    margin-top: 4.5%;
+}
+
+.progress{
+    height: 4px;
+    background-color: #ccc;
+    width: 70%;
+    margin-top: 5%;
+}
+
+.progress, .progress-bar{
+    border-radius: 200px;
+}
+
+ .progress:nth-child(1) .progress-bar{
+    height: 100%;
+    width: 60%;
+    background-color: purple;
+ }
+
+ .progress:nth-child(3) .progress-bar{
+    height: 100%;
+    width: 90%;
+    background-color: purple;
+}
+
+ .progress:nth-child(5) .progress-bar{
+    height: 100%;
+    width: 60%;
+    background-color: purple;
+ }
+ .progress:nth-child(7) .progress-bar{
+    height: 100%;
+    width: 15%;
+    background-color: purple;
+ }
+ 
+ .progress:nth-child(9) .progress-bar{
+    height: 100%;
+    width: 10%;
+    background-color: purple;
+ }
+
+ .progress:nth-child(11) .progress-bar{
+    height: 100%;
+    width: 60%; 
+    background-color: purple;
+}
+
+ .progress:nth-child(13) .progress-bar{
+    height: 100%;
+    width: 25%; 
+    background-color: purple;
+}
+
+/* ---------------------------- Responsividade ---------------------------- */
+@media (max-width: 1600px){
+    .container-skills {
+        margin-top: 6%;      
+    }
+ 
+    .progress:nth-child(15) .progress-bar{
+         margin-top: 9%;
+     }
+ 
+ 
+ 
+    .container-1{
+        width: 100%;
+    }
+ 
+    .container-2 {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 1442px){
+    .conhecimentos h2{
+        font-size: 30px;
+    }
+    
+    .conhecimentos ul li {
+        padding: 4.1%;
+        width: 100%;
+    }
+
+    .container-skills{ 
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 992px){
+    .container-conhecimentos-tecnicos {
+        margin-left: 20%;
+        width: 80%;
+    }
+
+    .conhecimentos {
+        width: 100%;
+    }
+
+    .container-skills {
+        margin-top: 8%;
+    }
+
+    .progress {
+        margin-top: 7%;
+    }
+
+
+}
+@media (max-width: 768px){
+    .container-conhecimentos-tecnicos {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .container-skills {
+        margin-top: 14%;
+    }
+
+    .progress {
+        margin-top: 8%;
+    }
+}
+
+@media (max-width: 600px){
+    .container-conhecimentos-tecnicos {
+        margin-left: 10%;
+        width: 80%;
+    }
+    .conhecimentos h2 {
+        font-size: 25px;
+    }
+
+    .conhecimentos {
+        margin-top: 15%;
+    }
+
+    .conhecimentos ul li {
+        font-size: 14px;
+        width: 100%;
+        padding: 10%;
+    }
+
+    .container-skills {
+        margin-left: 10%;
+        margin-top: 32%;
+    }
+
+    .progress {
+        margin-top: 17%;
+        width: 100%;
+    }  
+}
+
+@media (max-width: 530px){
+    .container-skills {
+        margin-top: 30%;
+    }
+
+    .progress {
+        margin-top: 18%;
+    }
+    .conhecimentos h2 {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 500px){
+    .container-conhecimentos-tecnicos {
+        margin-left: 2%;
+        width: 90%;
+    }
+    
+    .conhecimentos ul li {
+        padding: 12%;
+    }
+    
+    .container-skills {
+        margin-top: 34%;
+    }
+
+    .progress {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 480px){
+    .container-skills {
+        margin-top: 32%;
+    }
+    
+    .progress {
+        margin-top: 22%;
+    }
+}
+
+@media (max-width: 450px){
+    .container-conhecimentos-tecnicos {
+        margin-left: 1%;
+    }
+    
+    
+    .container-skills {
+        margin-top: 34%;
+    }
+
+    .progress {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 430px){
+    .container-skills {
+        margin-top: 36%;
+    }
+
+    .progress {
+        margin-top: 21%;
+    }
+}
+
+@media (max-width: 400px){     
+    .container-skills {
+        margin-top: 38%;
+    }
+
+    .progress {
+        margin-top: 24%;
+    }
+}
+
+@media (max-width: 380px){ 
+    .container-skills {
+        margin-top: 39%;
+    }
+
+    .progress {
+        margin-top: 26%;
+    }
+}
+
+@media (max-width: 360px){ 
+    .conhecimentos h2 {
+        font-size: 20px;
+    }
+
+    .container-skills {
+        margin-top: 37%;
+    }
+
+    .progress {
+        margin-top: 24%;
+    }
+}

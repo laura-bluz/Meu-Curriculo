@@ -1,0 +1,96 @@
+/* -------------------------- Adoraria ouvir de você -------------------------- */
+#back-to-top {
+    position:fixed;
+    bottom: 50px;
+    right: 50px;
+    width:0%;
+    height: 0%;
+    border: 0px;
+    background-color:transparent;
+}
+
+.ouvir{
+    padding: 2.5%;
+    background-color:hsla(300, 91%, 21%, 0.178);
+    letter-spacing: 1.5px;
+    color:black;
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 5%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.ouvir h2 {
+    font-size: 27px;
+}
+
+.container-fim {
+    width: 13%;
+    align-self: center;
+}
+.container-1 {
+    margin: 4%;
+}
+
+.container-2 {
+    margin: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ouvir p {
+    color:transparent;
+    margin-block-start: 0%;
+    margin-block-end: 0%
+}
+
+.ouvir p a:nth-child(2){
+    margin-right: 0%;
+}
+.ouvir p a {
+    font-size: 40px;
+    color:transparent;
+    margin-right: 50px; 
+    width: 0%;
+    text-decoration: none;
+}
+
+.ouvir p a img {
+    background-color:white;
+    border-radius: 5px;
+    width: 25px;
+}
+
+#email {
+    color:black;
+    font-family:Georgia, sans-serif;
+}
+
+/* ---------------------------- Responsividade ---------------------------- */
+
+@media (max-width: 1442px){
+    .ouvir h2 { 
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1024px){
+    .container-fim {
+        width: 20vw;
+    }
+}
+
+@media (max-width: 600px){
+    .container-fim {
+        width: 60%;
+    } 
+}
+
+@media (max-width: 360px){
+    .container-fim {
+        width: 60%;
+    }  
+}

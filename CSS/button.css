@@ -1,0 +1,11 @@
+
+/* ---------------------------- Responsividade ---------------------------- */
+
+@media (max-width: 450px){
+    #back-to-top {
+        float: left;
+        margin-left: 0%;
+        left: -10px;
+    }
+}
+

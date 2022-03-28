@@ -1,4 +1,4 @@
-@import "./fonts.css";
+/* @import "./fonts.css";
 
 html {
     height: 100%;
@@ -8,7 +8,6 @@ html {
 }
 
 body {
-    /* background-color:rgba(84, 3, 84, 0.212); */
     background-color: white;
     margin: 0;
     height: 100%;
@@ -40,9 +39,9 @@ p {
 
 a {
     color:white;
-}
+} */
 /* -------------------------- Cabeçalho --------------------------  */
-.cabecalho {
+/* .cabecalho {
     background-color: rgba(65, 8, 65, 0.835);
     margin-top: 0px;
     margin-bottom: 0px;
@@ -51,10 +50,10 @@ a {
     text-shadow: 2px 2px 2px black;
     text-align:center;
     font-size: 40px;
-}
+} */
 
 /* -------------------------- Topo --------------------------  */
-#btn-mobile { 
+/* #btn-mobile { 
     display: none;
 }
 #btn-mobile-close { 
@@ -166,10 +165,10 @@ a {
     text-align: center;
     font-style: italic;
     color:white;
-}
+} */
 
 /* -------------------------- Download Curriculum Vitae -------------------------- */
-.cv-inicio {
+/* .cv-inicio {
     width: 26%;
     background-color: white;
     border-radius: 15px;
@@ -186,11 +185,11 @@ a {
     color:rgba(65, 8, 65, 0.835);
     text-shadow: none;
     font-style:italic;
-}
+} */
 
 /* -------------------------- Sobre --------------------------  */
 
-.sobre {
+/* .sobre {
     background-color: gainsboro;
     text-align: center;
     padding: 5%;
@@ -210,13 +209,12 @@ a {
     display: inline-block;
     color: black;
     text-shadow: 1px 1px 1px black;
-}
+} */
 
 
 /* -------------------------- Cards -------------------------- */
 
-.cards {
-    /* color:blueviolet; */
+/* .cards {
     display: flex;
     margin-left: 25%;
     padding: 2.5%;
@@ -248,10 +246,10 @@ a {
 
 .cardflex b {
     font-size: 20px;
-}
+} */
 
 /* -------------------------- Conhecimentos técnicos -------------------------- */
-.container-conhecimentos-tecnicos{
+/* .container-conhecimentos-tecnicos{
     width: 70%;
     display: flex;
     margin-left: 27%;
@@ -338,10 +336,10 @@ a {
     height: 100%;
     width: 25%; 
     background-color: purple;
-}
+} */
 
 /* -------------------------- Adoraria ouvir de você -------------------------- */
-#back-to-top {
+/* #back-to-top {
     position:fixed;
     bottom: 50px;
     right: 50px;
@@ -409,10 +407,10 @@ a {
 #email {
     color:black;
     font-family:Georgia, sans-serif;
-}
+} */
 
 /* -------------------------- Rodapé -------------------------- */
-.rodape{
+/* .rodape{
     height: 80px;
 	color: wheat;
 	font-size: 14px;
@@ -422,7 +420,7 @@ a {
     line-height: 80px;
     margin-top: 0%;
    font-size: 20px;
-}
+} */
 
 
 /* ---------------------------- Responsividade ---------------------------- */
@@ -448,8 +446,8 @@ a {
 } */
 
 /* -------------------------- Media Query -------------------------- */
-@media screen and (max-width: 1600px){
-    #topo-nav a {
+/* @media screen and (max-width: 1600px){ */
+    /* #topo-nav a {
         font-size: 14px;
     }
     
@@ -484,11 +482,11 @@ a {
 
     .cv-inicio {
         width: 30%;
-    }
+    } */
 
 
 
-   .container-skills {
+   /* .container-skills {
        margin-top: 6%;      
    }
 
@@ -504,19 +502,19 @@ a {
 
    .container-2 {
        margin-left: 10%;
-   }
+   } */
 
 
 
-   .sobre p {
+   /* .sobre p {
        width: 40%;
-   }
+   } */
 
    
-}
+/* } */
 
-@media screen and (max-width: 1442px){
-    .imagem-topo {
+/* @media screen and (max-width: 1442px){ */
+    /* .imagem-topo {
       height: 70vh;
     }
 
@@ -533,14 +531,14 @@ a {
 
     #curso {
         font-size: 20px;
-    }
+    } */
 
 
-    .sobre p {
+    /* .sobre p {
         width: 52%;
-    }
+    } */
 
-    .conhecimentos h2{
+    /* .conhecimentos h2{
         font-size: 30px;
     }
     
@@ -552,35 +550,35 @@ a {
     .container-skills{ 
         margin-top: 5%;
         margin-left: 5%;
-    }
+    } */
 
-    .ouvir h2 { 
+    /* .ouvir h2 { 
         font-size: 25px;
-    }
-}
+    } */
+/* } */
 
-@media (max-width: 1200px){
+/* @media (max-width: 1200px){
     .imagem-topo {
         height: 65vh !important;
     }
-}
+} */
 
-@media (max-width: 1024px){
-    .container img {
+/* @media (max-width: 1024px){ */
+    /* .container img {
         width: 35%;
     }
 
     .imagem-topo {
         height: 55vh !important;
-    }
+    } */
 
-    .container-fim {
+    /* .container-fim {
         width: 20vw;
-    }
-}
+    } */
+/* } */
 
-@media (max-width: 768px){
-    .imagem-topo {
+/* @media (max-width: 768px){ */
+    /* .imagem-topo {
         height: 42vh !important;
     }
 
@@ -599,9 +597,9 @@ a {
     .cv-inicio {
         width: 40%;
         margin-top: 0%;
-    }
+    } */
 
-    .container-skills {
+    /* .container-skills {
         margin-top: 14%;
     }
 
@@ -616,12 +614,13 @@ a {
     .container-conhecimentos-tecnicos{
         width: 90%;
         margin: 10%;
-    }
-}
+    } */
 
-@media screen and (max-width: 600px){    
+/* } */
+
+/* @media screen and (max-width: 600px){     */
     
-    html {
+    /* html {
         height: 100%;
         max-width: 100%;
          width: 100%;
@@ -639,25 +638,18 @@ a {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 100% !important;
-    }
+    } */
     
-    .cabecalho {
+    /* .cabecalho {
         font-size: 0px;
         padding: 0%;
         margin: 0%;
-    }
-
-    #header { 
-        box-sizing: border-box;
-        padding-bottom: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+    } */
 
     
-    #btn-mobile {
+
+    
+    /* #btn-mobile {
         display: flex;
         background: none;
         border: none;
@@ -728,7 +720,6 @@ a {
         overflow: hidden;
         background-color: #e4d3e4;
         transition-delay: .4s ease;
-        /* transition:  0.45s ease; */
     }
 
     #menu a {
@@ -850,21 +841,21 @@ a {
         margin-left: 0%;
         text-align: center;
         width: 80%;
-    }
+    } */
 
 
-    .sobre h2 {
+    /* .sobre h2 {
         font-size: 25px;
     }
 
     .sobre p {
         font-size: 15px;
         width: 50vh;
-    }
+    } */
 
 
 
-    .cards {
+    /* .cards {
         display: flex;
         flex-direction: column;
         margin-left: 10%;
@@ -881,11 +872,11 @@ a {
 
     .cardflex p {
         font-size: 15px;
-    }
+    } */
 
     
 
-    .container-conhecimentos-tecnicos {
+    /* .container-conhecimentos-tecnicos {
         margin-left: 10%;
         width: 80%;
     }
@@ -911,67 +902,62 @@ a {
     .progress {
         margin-top: 17%;
         width: 100%;
-    }
+    } */
 
 
-    .container-fim {
+    /* .container-fim {
         width: 60%;
-    }
-}
+    } */
+/* } */
 
-@media (max-width: 480px){
-    .imagem-topo {
+/* @media screen and (max-width: 530px){ */
+    /* .imagem-topo {
+        height: 40vh !important;
+    } */
+    
+    /* .container-skills {
+        margin-top: 30%;
+    }
+
+    .progress {
+        margin-top: 18%;
+    } */
+/* } */
+
+/* @media screen and (max-width: 500px){ */
+    /* .imagem-topo {
+        height: 39vh !important;
+    }     */
+
+    /* .container-skills {
+        margin-top: 34%;
+    }
+
+    .progress {
+        margin-top: 20%;
+    } */
+/* } */
+
+/* @media (max-width: 480px){ */
+    /* .imagem-topo {
         height: 38vh !important;
-    }
+    } */
 
-    .container-skills {
+    /* .container-skills {
         margin-top: 34%;
     }
     
     .progress {
         margin-top: 22%;
     }
-}
-@media screen and (max-width: 530px){
-    .imagem-topo {
-        height: 40vh !important;
-    }
-    
-    .container-skills {
-        margin-top: 30%;
-    }
+} */
 
-    .progress {
-        margin-top: 18%;
-    }
-}
-
-@media screen and (max-width: 500px){
-    .imagem-topo {
-        height: 39vh !important;
-    }    
-
-    .container-skills {
-        margin-top: 34%;
-    }
-
-    .progress {
-        margin-top: 20%;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .imagem-topo {
-        height: 38vh !important;
-    }    
-}
-
-@media screen and (max-width: 450px){
-    .imagem-topo {
+/* @media screen and (max-width: 450px){ */
+    /* .imagem-topo {
         height: 35vh !important;
-    }    
+    }     */
 
-    .sobre h2 {
+    /* .sobre h2 {
         font-size: 30px;
     }
     
@@ -981,38 +967,38 @@ a {
         text-align:justify;
         text-indent: 3em;
         height: auto;
-    }
+    } */
 
-    .container-skills {
+    /* .container-skills {
         margin-top: 35%;
     }
 
     .progress {
         margin-top: 25%;
-    }
+    } */
 
-    #back-to-top {
+    /* #back-to-top {
         float: left;
         margin-left: 0%;
         left: -10px;
-    }
-}
+    } */
+/* } */
 
-@media screen and (max-width: 430px){
-    .imagem-topo {
+/* @media screen and (max-width: 430px){ */
+    /* .imagem-topo {
         height: 33vh !important;
-    }    
+    }     */
 
-    .container-skills {
+    /* .container-skills {
         margin-top: 37%;
     }
 
     .progress {
         margin-top: 28%;
-    }
-}
+    } */
+/* } */
 
-@media screen and (max-width: 420px){ 
+/* @media screen and (max-width: 420px){ 
 
     .container-skills {
         margin-top: 39%;
@@ -1022,23 +1008,23 @@ a {
         margin-top: 29%;
     }
 
-}
+} */
 
-@media screen and (max-width: 400px){ 
-    .imagem-topo {
+/* @media screen and (max-width: 400px){  */
+    /* .imagem-topo {
         height: 30vh !important;
-    }  
+    }   */
     
-    .container-skills {
+    /* .container-skills {
         margin-top: 41%;
     }
 
     .progress {
         margin-top: 33%;
     }
-}
+} */
 
-@media screen and (max-width: 380px){ 
+/* @media screen and (max-width: 380px){ 
     .container-skills {
         margin-top: 43%;
     }
@@ -1046,27 +1032,27 @@ a {
     .progress {
         margin-top: 38%;
     }
-}
+} */
 
-@media screen and (max-width: 360px){ 
-    .imagem-topo {
+/* @media screen and (max-width: 360px){  */
+    /* .imagem-topo {
         height: 28vh !important;
     }
     
     .frase-topo-img {
         font-size: 20px !important;
-    }
+    } */
     
-    .sobre h2 {
+    /* .sobre h2 {
         font-size: 22px;
     }
 
     .sobre p {
         font-size: 12px;
         width: 40vh;
-    }
+    } */
 
-    
+/*     
     .conhecimentos h2 {
         font-size: 20px;
     }
@@ -1078,10 +1064,11 @@ a {
     .progress {
         margin-top: 28%;
         width: 100%;
-    }
+    } */
 
 
-    .container-fim {
+    /* .container-fim {
         width: 60%;
-    }  
-}
+    }   */
+/* } */
+

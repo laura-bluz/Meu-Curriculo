@@ -1,0 +1,72 @@
+/* -------------------------- Sobre --------------------------  */
+
+.sobre {
+    background-color: gainsboro;
+    text-align: center;
+    padding: 5%;
+    background-color:hsla(300, 91%, 21%, 0.178);
+    letter-spacing: 1.5px;
+}
+
+.sobre h2 {
+    text-align:center;
+    color:rgba(65, 8, 65, 0.835);
+    font-size: 30px;
+}
+
+.sobre p {
+    line-height: 1.5;
+    width: 40%;
+    display: inline-block;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* ---------------------------- Responsividade ---------------------------- */
+
+@media (max-width: 1600px){
+    .sobre p {
+        width: 40%;
+    }
+}
+
+
+@media (max-width: 1442px){
+    .sobre p {
+        width: 52%;
+    }
+}
+
+   
+@media (max-width: 600px){ 
+    .sobre h2 {
+        font-size: 25px;
+    }
+
+    .sobre p {
+        font-size: 15px;
+        width: 50vh;
+    }
+}
+
+@media (max-width: 450px){
+    .sobre h2 {
+        font-size: 30px;
+    }
+
+    .sobre p { 
+        font-size: 25px;
+        width: 70vw !important;
+        text-align:justify;
+        text-indent: 3em;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 360px){
+
+    .sobre p {
+        font-size: 20px;
+    }
+}
