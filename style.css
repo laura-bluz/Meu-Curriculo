@@ -617,10 +617,6 @@ a {
         width: 90%;
         margin: 10%;
     }
-    
-    /* .progress:nth-child(3) {
-        margin-top: 18%;
-    } */
 }
 
 @media screen and (max-width: 600px){    
@@ -962,8 +958,8 @@ a {
     .progress {
         margin-top: 20%;
     }
-
 }
+
 @media screen and (max-width: 480px){
     .imagem-topo {
         height: 38vh !important;
@@ -1087,7 +1083,5 @@ a {
 
     .container-fim {
         width: 60%;
-    }
-    
-    
+    }  
 }
