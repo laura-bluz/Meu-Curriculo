@@ -936,6 +936,61 @@ a {
         margin-top: 22%;
     }
 }
+@media screen and (max-width: 530px){
+    .imagem-topo {
+        height: 40vh !important;
+    }    
+}
+
+@media screen and (max-width: 500px){
+    .imagem-topo {
+        height: 39vh !important;
+    }    
+
+}
+@media screen and (max-width: 480px){
+    .imagem-topo {
+        height: 38vh !important;
+    }    
+}
+
+@media screen and (max-width: 450px){
+    .imagem-topo {
+        height: 35vh !important;
+    }    
+
+    .sobre h2 {
+        font-size: 30px;
+    }
+    
+    .sobre p { 
+        font-size: 25px;
+        width: 70vw !important;
+        text-align:justify;
+        text-indent: 3em;
+        height: auto;
+    }
+
+    .container-skills {
+        margin-top: 35%;
+    }
+
+    .progress {
+        margin-top: 25%;
+    }
+
+    #back-to-top {
+        float: left;
+        margin-left: 0%;
+        left: -10px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .imagem-topo {
+        height: 33vh !important;
+    }    
+}
 
 @media screen and (max-width: 420px){ 
 
@@ -949,6 +1004,21 @@ a {
 
 }
 
+@media screen and (max-width: 400px){ 
+    .imagem-topo {
+        height: 30vh !important;
+    }    
+}
+
+@media screen and (max-width: 380px){ 
+    .container-skills {
+        margin-top: 43%;
+    }
+
+    .progress {
+        margin-top: 36%;
+    }
+}
 
 @media screen and (max-width: 360px){ 
     .imagem-topo {
@@ -987,9 +1057,5 @@ a {
         width: 60%;
     }
     
-    #back-to-top {
-        float: left;
-        margin-left: 0%;
-        left: -10px;
-    }
+    
 }
