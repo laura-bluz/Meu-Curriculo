@@ -407,15 +407,16 @@
     .topo {
         display: flex;
         flex-direction: column-reverse;
+        height: auto;
     }
     
     .fundo-topo {
         background-color:rgba(65, 8, 65, 0.835);
         width: 100%;
     }
+    
     .imagem-topo {
         background-size: 100%;
-        height: 37vh;
     }
 
     .container { 
@@ -452,15 +453,12 @@
 }
 
 
-@media (max-width: 530px) {
-    .imagem-topo {
-        height: 40vh !important;
-    }
-}
-
 @media (max-width: 500px) {
     .imagem-topo {
         height: 39vh !important;
+    }
+    .topo {
+        height: auto;
     }
 }
 
@@ -481,32 +479,54 @@
     .imagem-topo {
         height: 33vh !important;
     }  
-}
+} 
 
 
 @media (max-width: 400px) { 
     .imagem-topo {
-        height: 30vh !important;
+        height: 35vh !important;
     }  
 
     .topo {
-        height: auto;
+        height: auto !important;
+    }
+
+    .container {
+        margin-top: 2%;
+        height: auto !important;
+    }
+
+    .container h1 {
+        font-size: 25px !important;
+    }
+
+    .container p {
+        font-size: 22px !important;
+    }
+
+    .container img {
+        width: 30%;
+    }
+
+    .cv-inicio {
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 }
 
 @media (max-width: 380px) {
     .topo {
-        height: auto;
+        height: auto !important;
+    }
+
+    .frase-topo-img {
+        font-size: 23px !important;
     }
 }
 
 @media (max-width: 360px){ 
-    .imagem-topo {
-        height: 28vh !important;
-    }
-    
     .frase-topo-img {
-        font-size: 20px !important;
+        font-size: 22px !important;
     }
 
     .topo {
