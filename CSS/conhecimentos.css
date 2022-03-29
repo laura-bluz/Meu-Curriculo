@@ -1,5 +1,9 @@
 @import "/fonts.css";
 /* -------------------------- Conhecimentos técnicos -------------------------- */
+.conhec-tec {
+    height: auto;
+}
+
 .container-conhecimentos-tecnicos{
     width: 70%;
     display: flex;
