@@ -488,6 +488,16 @@
     .imagem-topo {
         height: 30vh !important;
     }  
+
+    .topo {
+        height: auto;
+    }
+}
+
+@media (max-width: 380px) {
+    .topo {
+        height: auto;
+    }
 }
 
 @media (max-width: 360px){ 
@@ -497,5 +507,9 @@
     
     .frase-topo-img {
         font-size: 20px !important;
+    }
+
+    .topo {
+        height: auto;
     }
 }
