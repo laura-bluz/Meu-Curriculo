@@ -1,4 +1,4 @@
-@import "/fonts.css";
+@import "../fonts.css";
 /* ---------------------------- Responsividade ---------------------------- */
 
 @media (max-width: 450px){
