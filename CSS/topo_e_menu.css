@@ -482,7 +482,7 @@
 
 @media (max-width: 400px) { 
     .imagem-topo {
-        height: 35vh !important;
+        height: 31vh !important;
     }  
 
     .topo {
@@ -520,6 +520,10 @@
     .frase-topo-img {
         font-size: 23px !important;
     }
+
+    .imagem-topo {
+        height: 30vh !important;
+    }  
 }
 
 @media (max-width: 360px){ 
@@ -530,4 +534,8 @@
     .topo {
         height: auto;
     }
+
+    .imagem-topo {
+        height: 28vh !important;
+    } 
 }
