@@ -318,6 +318,16 @@
     }
 }
 
+@media (max-width: 400px){
+    
+    .progress6 {
+        margin-left: 49% !important;
+    }
+    .progress7  {
+        margin-left: 62% !important;
+    }
+}
+
 @media (max-width: 380px){
     #conhec-tec  h2{
         font-size: 26px;
@@ -332,6 +342,6 @@
     }
 
     .progress7  {
-        margin-left: 61% !important;
+        margin-left: 63% !important;
     }
 }
