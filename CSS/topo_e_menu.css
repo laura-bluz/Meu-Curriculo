@@ -1,4 +1,5 @@
 @import "../fonts.css";
+@import "../Fonts/Roboto-Black.ttf";
 
 /* -------------------------- Cabeçalho --------------------------  */
 .cabecalho {
@@ -522,7 +523,7 @@
     }
 
     .imagem-topo {
-        height: 30vh !important;
+        height: 29vh !important;
     }  
 }
 
@@ -536,6 +537,6 @@
     }
 
     .imagem-topo {
-        height: 28vh !important;
+        height: 27vh !important;
     } 
 }
