@@ -4,97 +4,126 @@
     height: auto;
 }
 
-.container-conhecimentos-tecnicos{
-    width: 70%;
-    display: flex;
-    margin-left: 27%;
-    flex-direction: row;    
-    font-size: 20px;
-    margin-top: 5%;
-}
-
-.conhecimentos{
-    width: 70%;
-}
-
-.conhecimentos h2{
+#conhec-tec h2 {
     font-size:35px;
     color:rgba(65, 8, 65, 0.835);
     font-style: italic;
     margin-top: 10%;
+    margin-left: 20%;
 }
 
-.conhecimentos ul {
-    padding: 0%;
+.container-conhecimentos-tecnicos{
+    width: 70%;
+    /* display: flex; */
+    margin-left: 20%;
+    /* flex-direction: row;     */
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+/* 
+.conhecimentos{
+    width: 100%;
+} */
+
+.conhecimentos-lista {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
+.lista-align {
+    text-align: center;
+}
+
+/* 
 .conhecimentos ul li {
     padding: 4.1%;
     list-style: none;
-}
+} */
 
 
-
-.container-skills{
+/* .container-skills{
     width: 100%;
     padding: 4.2%;
     margin-top: 4.5%;
-}
+} */
 
-.progress{
+.progress1, .progress2, .progress3, .progress4, .progress5, .progress6, .progress7 {
     height: 4px;
     background-color: #ccc;
-    width: 70%;
-    margin-top: 5%;
-}
-
-.progress, .progress-bar{
+    width: 50%;
+    margin-top: 0.8%;
+    margin-left: 10%;
     border-radius: 200px;
 }
 
- .progress:nth-child(1) .progress-bar{
+.progress-bar{
+    border-radius: 200px;
+}
+
+.progress1 .progress-bar{
     height: 100%;
     width: 60%;
     background-color: purple;
- }
+}
 
- .progress:nth-child(3) .progress-bar{
+.progress2 {
+    margin-left: 7%;
+}
+.progress2 .progress-bar{
     height: 100%;
     width: 90%;
     background-color: purple;
 }
 
- .progress:nth-child(5) .progress-bar{
+.progress3 {
+    margin-left: 22%;
+}
+.progress3 .progress-bar{
     height: 100%;
     width: 60%;
     background-color: purple;
- }
- .progress:nth-child(7) .progress-bar{
+}
+
+.progress4 {
+    margin-left: 29.5%;
+}
+.progress4 .progress-bar{
     height: 100%;
     width: 15%;
     background-color: purple;
- }
- 
- .progress:nth-child(9) .progress-bar{
+}
+
+.progress5 {
+    margin-left: 17%;
+}
+.progress5 .progress-bar{
     height: 100%;
     width: 10%;
     background-color: purple;
- }
+}
 
- .progress:nth-child(11) .progress-bar{
+.progress6 {
+    margin-left: 24%;
+}
+.progress6 .progress-bar{
     height: 100%;
     width: 60%; 
     background-color: purple;
 }
 
- .progress:nth-child(13) .progress-bar{
+.progress7 {
+    margin-left: 30.5%;
+}
+.progress7 .progress-bar{
     height: 100%;
     width: 25%; 
     background-color: purple;
 }
 
 /* ---------------------------- Responsividade ---------------------------- */
-@media (max-width: 1600px){
+/* @media (max-width: 1600px){
     .container-skills {
         margin-top: 6%;      
     }
@@ -289,19 +318,10 @@
     }
 }
 
-@media (max-width: 400px){     
-    .container-skills {
-        margin-top: 38%;
-    }
-
-    .progress {
-        margin-top: 24%;
-    }
-}
 
 @media (max-width: 380px){ 
     .container-skills {
-        margin-top: 39%;
+        margin-top: 36%;
     }
 
     .progress {
@@ -331,4 +351,4 @@
     .progress {
         margin-top: 35%;
     }
-}
+} */
