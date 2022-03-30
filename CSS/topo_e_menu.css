@@ -63,7 +63,7 @@
 }
 
 .imagem-topo {
-    background-image: url(/Imagens/menina-notebook.jpg);
+    background-image: url(../Imagens/menina-notebook.jpg);
     height: 80vh;
     background-size: 70%;
     background-repeat: no-repeat;
