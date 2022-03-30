@@ -371,14 +371,14 @@
     }
 
     #menu li:nth-child(2) {
-        background-image: url(/Imagens/usuario-mulher-com-circulo.png);
+        background-image: url(../Imagens/usuario-mulher-com-circulo.png);
         background-repeat: no-repeat;
         background-position:left;
         margin-left: 3%;
     }
 
     #menu li:nth-child(3) {
-        background-image: url(/Imagens/chapéu-de-formatura.png);
+        background-image: url(../Imagens/chapéu-de-formatura.png);
         background-repeat: no-repeat;
         background-position:left;
         padding: 25px; 
@@ -387,7 +387,7 @@
     
 
     #menu li:nth-child(4) {
-        background-image: url(/Imagens/meu-computador.png);
+        background-image: url(../Imagens/meu-computador.png);
         background-repeat: no-repeat;
         background-position:left;
         padding: 25px;
@@ -395,7 +395,7 @@
     }
 
     #menu li:nth-child(5) {
-        background-image: url(/Imagens/contato-de-email.png);
+        background-image: url(../Imagens/contato-de-email.png);
         background-repeat: no-repeat;
         background-position:left;
         margin-left: 3%;
