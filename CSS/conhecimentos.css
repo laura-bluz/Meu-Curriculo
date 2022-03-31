@@ -126,6 +126,23 @@
     #progress-align {
         margin-top: 3.2%;
     }
+
+    #conhec-tec h2 {
+        margin-left: 3%;
+    }
+
+    .container-conhecimentos-tecnicos {
+        margin-left: 0% !important;
+        width: 100vw !important;
+    }
+
+    .lista-conhec {
+        margin-left: 3%;
+    }
+
+    #progress-align {
+        width: 50%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -154,11 +171,11 @@
 @media (max-width: 400px) {
     #conhec-tec h2 {
         font-size: 28px;
-        margin-left: 12%;
+        margin-left: 3%;
     }
 
     .container-conhecimentos-tecnicos {
-        margin-left: 8% !important;
+        margin-left: 0% !important;
     }
 }
 

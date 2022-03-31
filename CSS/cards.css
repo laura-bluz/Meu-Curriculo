@@ -42,7 +42,7 @@
     .cards {
         display: flex;
         flex-direction: column;
-        margin-left: 10%;
+        margin-left: 3%;
     }
 
     .cardflex {
